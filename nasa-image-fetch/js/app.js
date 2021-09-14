@@ -9,10 +9,9 @@ import {
 // Caching DOM
 
 export const nasaImageContainerEl = document.querySelector(".nasa-image-container");
-const googleEmbedEl = document.querySelector(".google-embed-iframe");
-// const googleEmbedEl = document.querySelector(".google-embed-container");
-const taglineEl = document.querySelector(".app-tagline");
 export const buttonEl = document.querySelector(".button");
+const googleEmbedEl = document.querySelector(".google-embed-iframe");
+const taglineEl = document.querySelector(".app-tagline");
 const nasaEndpoint = 'https://api.nasa.gov/planetary/earth/imagery?'
 const token = '&api_key=N48XRwWlGEr15IRdacow3bXBeDJM5OkhcZ92w8X0'
 const googleMapsEndpoint = 'https://www.google.com/maps/embed/v1/view?key=AIzaSyBsh24-LzvzGumJN2NaX0gYAQqzstGPeZs&center='
