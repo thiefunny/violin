@@ -6,7 +6,7 @@
         height: auto;
     }
 
-    h1 {
+    .heading {
         font-size: 1rem;
         width: 95%
     }
@@ -16,7 +16,7 @@
         width: 90%;
     }
 
-    nav {
+    .navigation {
         position: relative;
         padding: 5%;
         width: 100%;
